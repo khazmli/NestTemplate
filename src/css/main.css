@@ -895,7 +895,7 @@ button {
 }
 
 .rg-btn1:hover {
-  margin-top: -8px;
+  transform: translateY(-5px);
 }
 
 .bl-rg-box-2 h2 {
@@ -1994,20 +1994,27 @@ footer {
 }
 
 .installBox1:hover {
-  margin-top: -5px;
+  transform: translateY(-5px);
 }
 
 .installBox2:hover {
-  margin-top: -5px;
+  transform: translateY(-5px);
 }
 
 .visaCard:hover {
-  margin-top: -5px;
+ transform: translateY(-5px);
 }
 
 @media only screen and (max-width: 1360px) {
   .blank-right {
     display: none;
+  }
+  .card-img-hover-box{
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 140px;
+    right: 0;
   }
 
   .blank-left {
@@ -2031,7 +2038,7 @@ footer {
 
 
 
-@media only screen and (min-width: 1320px) {
+@media only screen and (max-width: 1320px) {
   .blank-3 {
     display: none;
   }
